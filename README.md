@@ -2,15 +2,7 @@
 
 Flutterの学習経緯を集約したプロジェクトです
 
-## Getting Started
+## 作成リポジトリ一覧
 
-This project is a starting point for a Flutter application.
+（後日作成予定）
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
