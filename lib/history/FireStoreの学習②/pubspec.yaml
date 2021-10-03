@@ -1,0 +1,77 @@
+name: train_flutter_firebase
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  #　ユーザー（スマホ）にデータを保持させる
+  shared_preferences: ^2.0.5
+  #　指定のURLをブラウザで展開させる
+  url_launcher: ^6.0.3
+  #　アイコンのカスタマイズ
+  #　設定した後コマンド必須　$ flutter pub pub run flutter_launcher_icons:main
+  flutter_launcher_icons: ^0.9.1
+  #　font_awesome使うためのやつ
+  font_awesome_flutter: ^8.8.1
+  #　date_picker　ドラムロールで日付選択できる
+  flutter_datetime_picker: ^1.4.0
+  #　snackbar をカスタムしたい時
+  flushbar: ^1.10.4
+  #　color_pickerで色を選択できる
+  flutter_material_color_picker: ^1.0.5
+  #　色々便利なProvider
+  provider: ^5.0.0
+  #providerの上位互換、riverpod
+  riverpod: ^0.14.0+3
+  flutter_riverpod: ^0.14.0+3
+  #reactのやつらしい。
+  hooks_riverpod: ^0.14.0+4
+  #インスタンスを変更不可に。変更しようとすると自動生成する。
+  freezed_annotation:
+  #json化するやつ（今回は使わないのでコメントアウト）
+  #  json_serializable:
+
+
+  #　他言語対応
+  flutter_localizations: # 多言語パッケージの本体
+    sdk: flutter
+  intl: ^0.17.0 # 多言語やフォーマッタなどの関連パッケージ
+
+  #　SQlite使うにはこれ
+  #  sqflite: ^2.0.0+3
+  #  path: ^1.8.0
+
+  #マークダウン的なメモができる
+  #  flutter_markdown: ^0.4.4
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+
+  flutter_driver:
+    sdk: flutter
+
+  test: any
+  #　インスタンスの変更をブロックするもの。メンテナンス性は上がる。
+  build_runner:
+  # flutter pub run build_runner build --delete-conflicting-outputs
+  freezed:
+
+#flutter_launcher_iconsとセット
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+
+flutter:
+  uses-material-design: true
+
